@@ -61,7 +61,27 @@ Este proyecto es una aplicación web desarrollada con Fresh y Deno que requiere 
    deno task start
    ```
 
-## Notas Adicionales
+## Cambios hechos
+
+En la clase _layout los href no llevaban a sus correspondientes sitios se ha modificado el # por/ , / ,/search y /create
+
+en la clase _404.tsx se ha modificado los href de /inicio por / y /buscar por /search
+
+En la parte de create/index necesitábamos un onclick en el botón de cancelar para que volviese a la pagina principal por ello he trasladado el formulario a una isla y luego la he llamado en el index.
+
+En la clase post.ts he cambiando los nombres de las variables por los correspondientes en la api. Por consecuencia en el componente post se han modificado los nombres y también en post y dentro de ahí [id]
+
+en la clase MainView he añadido un onclick en la parte de la cuadricula para que complete la acción.
+
+en la clase de search y dentro index cambio en los search paramas lo de dentro por search
+
+en la clase LikeButton y modificado el metodo en vez de delete un post de likes pillado en la url
+
+creo una isla llamada deleteButton para implementar la funcionalidad de eliminar un post y luego lo llamo en [id]
+
+en post [id] he cambiado la parte de subir comentario y he metido el método post.
+
+
 
 - Asegúrate de que todos los enlaces sean funcionales
 - La aplicación no debe mostrar errores en consola
