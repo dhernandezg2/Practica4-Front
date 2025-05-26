@@ -81,8 +81,3 @@ creo una isla llamada deleteButton para implementar la funcionalidad de eliminar
 
 en post [id] he cambiado la parte de subir comentario y he metido el método post.
 
-
-
-- Asegúrate de que todos los enlaces sean funcionales
-- La aplicación no debe mostrar errores en consola
-- El código debe seguir buenas prácticas de desarrollo web
